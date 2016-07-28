@@ -32,7 +32,7 @@ pkg-config \
 libv4l-dev \
 v4l-utils \
 v4l2ucp \
-libjpeg-turbo8-dev
+libjpeg-turbo62-dev
 
 mkdir -p tmp/mjpg-streamer_install/usr/local/
 mkdir -p tmp/mjpg-streamer_install/usr/local/bin
