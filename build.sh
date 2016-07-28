@@ -4,8 +4,8 @@ set -e
 
 mkdir -p deb
 pushd deb
-wget http://openrov-software-nightlies.s3-us-west-2.amazonaws.com/jessie/zmq/openrov-zmq_1.0.0-1~1_armhf.deb
-dpkg -i openrov-zmq_1.0.0-1~1_armhf.deb
+wget http://openrov-software-nightlies.s3-us-west-2.amazonaws.com/jessie/zmq/openrov-zmq_1.0.0-1~2_armhf.deb
+dpkg -i openrov-zmq_1.0.0-1~2_armhf.deb
 rm -rf deb
 popd
 
@@ -32,7 +32,7 @@ pkg-config \
 libv4l-dev \
 v4l-utils \
 v4l2ucp \
-libjpeg62-dev
+libjpeg-turbo8-dev
 
 mkdir -p tmp/mjpg-streamer_install/usr/local/
 mkdir -p tmp/mjpg-streamer_install/usr/local/bin
